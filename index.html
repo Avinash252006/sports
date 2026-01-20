@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sports Equipment Store</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="storePage">
+
+<header>
+<h1>🏆 Sports Equipment Store</h1>
+<p>Cricket | Football | Swimming | Badminton | Basketball | Tennis | Hockey | Volleyball | Table Tennis</p>
+<button onclick="openFeedback()">Give Feedback</button>
+</header>
+
+<!-- CRICKET -->
+<h2>🏏 Cricket Equipment</h2>
+<div class="products">
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/A_Modern_Cricket_Bat.jpg">
+<h4>Cricket Bat</h4><p>₹3500</p>
+<p class="count">In Cart: <span id="Cricket Bat-count">0</span></p>
+<button onclick="addToCart('Cricket Bat',3500)">Add</button>
+</div>
+
+<div class="card">
+<img src="https://tse3.mm.bing.net/th/id/OIP.OXcS74T7wob1Yth0pkazKgHaFj">
+<h4>Cricket Ball</h4><p>₹450</p>
+<p class="count">In Cart: <span id="Cricket Ball-count">0</span></p>
+<button onclick="addToCart('Cricket Ball',450)">Add</button>
+</div>
+
+<div class="card">
+<img src="https://tse1.mm.bing.net/th/id/OIP.zYM9oY6oWCOi7UV52SZnewAAAA">
+<h4>Gloves</h4><p>₹1200</p>
+<p class="count">In Cart: <span id="Gloves-count">0</span></p>
+<button onclick="addToCart('Gloves',1200)">Add</button>
+</div>
+
+<div class="card">
+<img src="https://tse2.mm.bing.net/th/id/OIP.eTHk_bN9IMq5_Hoe4oXiKQHaHa">
+<h4>Pads</h4><p>₹1800</p>
+<p class="count">In Cart: <span id="Pads-count">0</span></p>
+<button onclick="addToCart('Pads',1800)">Add</button>
+</div>
+
+<div class="card">
+<img src="https://tse2.mm.bing.net/th/id/OIP.g1EMOmYjItYsVZ0Ns_BpJwHaIb">
+<h4>Helmet</h4><p>₹2500</p>
+<p class="count">In Cart: <span id="Helmet-count">0</span></p>
+<button onclick="addToCart('Helmet',2500)">Add</button>
+</div>
+ 
+<div class="card">
+<image src="https://m.media-amazon.com/images/I/51kedg5pLQL._AC_SL1414_.jpg">
+<h4>New Item</h4>
+<p>₹500</p>
+<p class="count">In cart: <span id="New Item-count">0</span></p>
+<button onclick="addToCart('New Item',500)">Add</button>
+</div>
+
+</div>
+
+<!-- FOOTBALL -->
+<h2>⚽ Football Equipment</h2>
+<div class="products">
+<div class="card">
+<img src="https://tse3.mm.bing.net/th/id/OIP.X07ppPNLTMXIQbKJ87vnTwHaE5">
+<h4>Football</h4><p>₹1200</p>
+<p class="count">In Cart: <span id="Football-count">0</span></p>
+<button onclick="addToCart('Football',1200)">Add</button>
+</div>
+
+<div class="card">
+<img src="https://tse1.mm.bing.net/th/id/OIP.Hi28W-0dWQ3sAVl-Izd-ZQHaFM">
+<h4>Football Shoes</h4><p>₹3000</p>
+<p class="count">In Cart: <span id="Football Shoes-count">0</span></p>
+<button onclick="addToCart('Football Shoes',3000)">Add</button>
+</div>
+
+<div class="card">
+<img src="https://tse3.mm.bing.net/th/id/OIP.1iaQ7Rkr10vouYJXDh8PxgHaHZ">
+<h4>Goalkeeper Gloves</h4><p>₹1400</p>
+<p class="count">In Cart: <span id="Goalkeeper Gloves-count">0</span></p>
+<button onclick="addToCart('Goalkeeper Gloves',1400)">Add</button>
+</div>
+</div>
+
+<!-- SWIMMING -->
+<h2>🏊 Swimming Equipment</h2>
+<div class="products">
+<div class="card">
+<img src="https://tse1.mm.bing.net/th/id/OIP.DPZb-wlRpFX390T-Th7f3wHaF_">
+<h4>Swimming Goggles</h4><p>₹800</p>
+<p class="count">In Cart: <span id="Swimming Goggles-count">0</span></p>
+<button onclick="addToCart('Swimming Goggles',800)">Add</button>
+</div>
+
+<div class="card">
+<img src="https://www.tradeinn.com/f/13907/139077596_4/speedo-reversible-moulded-swimming-cap.jpg">
+<h4>Swim Cap</h4><p>₹300</p>
+<p class="count">In Cart: <span id="Swim Cap-count">0</span></p>
+<button onclick="addToCart('Swim Cap',300)">Add</button>
+</div>
+
+<div class="card">
+<img src="https://tse3.mm.bing.net/th/id/OIP.9SbBlQKdtEKRO-PP6ZoH2wHaHa">
+<h4>Swimsuit</h4><p>₹1800</p>
+<p class="count">In Cart: <span id="Swimsuit-count">0</span></p>
+<button onclick="addToCart('Swimsuit',1800)">Add</button>
+</div>
+</div>
+
+<!-- BADMINTON -->
+<h2>🏸 Badminton Equipment</h2>
+<div class="products">
+<div class="card">
+<img src="https://tse3.mm.bing.net/th/id/OIP.FENXsKWmkPaWtPo7z7AB9QAAAA">
+<h4>Badminton Racket</h4><p>₹2200</p>
+<p class="count">In Cart: <span id="Badminton Racket-count">0</span></p>
+<button onclick="addToCart('Badminton Racket',2200)">Add</button>
+</div>
+
+<div class="card">
+<img src="https://tse2.mm.bing.net/th/id/OIP.21vxC57UwTyrC2a00Jn8MwAAAA">
+<h4>Shuttlecock</h4><p>₹500</p>
+<p class="count">In Cart: <span id="Shuttlecock-count">0</span></p>
+<button onclick="addToCart('Shuttlecock',500)">Add</button>
+</div>
+</div>
+
+<!-- BASKETBALL -->
+<h2>🏀 Basketball Equipment</h2>
+<div class="products">
+<div class="card">
+<img src="https://tse2.mm.bing.net/th/id/OIP.e9ncs1XYqAulXbfaPw0TJgHaHP">
+<h4>Basketball</h4><p>₹1500</p>
+<p class="count">In Cart: <span id="Basketball-count">0</span></p>
+<button onclick="addToCart('Basketball',1500)">Add</button>
+</div>
+
+<div class="card">
+<img src="https://tse1.mm.bing.net/th/id/OIP.7ifgWFwKZJo6N7_hC7ve-gHaE8">
+<h4>Basketball Shoes</h4><p>₹3200</p>
+<p class="count">In Cart: <span id="Basketball Shoes-count">0</span></p>
+<button onclick="addToCart('Basketball Shoes',3200)">Add</button>
+</div>
+</div>
+
+<!-- TENNIS -->
+<h2>🎾 Tennis Equipment</h2>
+<div class="products">
+<div class="card">
+<img src="https://tse4.mm.bing.net/th/id/OIP.QCQ66Hmc9r8G8mIJH2DStAHaHa">
+<h4>Tennis Racket</h4><p>₹2800</p>
+<p class="count">In Cart: <span id="Tennis Racket-count">0</span></p>
+<button onclick="addToCart('Tennis Racket',2800)">Add</button>
+</div>
+
+<div class="card">
+<img src="https://tse2.mm.bing.net/th/id/OIP.6n_nHXX-Cn10IKC0T7A72AHaHa">
+<h4>Tennis Balls</h4><p>₹600</p>
+<p class="count">In Cart: <span id="Tennis Balls-count">0</span></p>
+<button onclick="addToCart('Tennis Balls',600)">Add</button>
+</div>
+</div>
+
+<!-- HOCKEY -->
+<h2>🏑 Hockey Equipment</h2>
+<div class="products">
+<div class="card">
+<img src="https://tse3.mm.bing.net/th/id/OIP.3QjPjkLRW3LpOIVerCYx9gHaHa">
+<h4>Hockey Stick</h4><p>₹3200</p>
+<p class="count">In Cart: <span id="Hockey Stick-count">0</span></p>
+<button onclick="addToCart('Hockey Stick',3200)">Add</button>
+</div>
+
+<div class="card">
+<img src="https://tse2.mm.bing.net/th/id/OIP.D0CY0odsZ41RaPRsMdcdWwHaHa">
+<h4>Hockey Ball</h4><p>₹400</p>
+<p class="count">In Cart: <span id="Hockey Ball-count">0</span></p>
+<button onclick="addToCart('Hockey Ball',400)">Add</button>
+</div>
+</div>
+
+<!-- VOLLEYBALL -->
+<h2>🏐 Volleyball Equipment</h2>
+<div class="products">
+<div class="card">
+<img src="https://tse4.mm.bing.net/th/id/OIP.PyzOXWqLnL-urOYttvWzeQHaHa">
+<h4>Volleyball</h4><p>₹1300</p>
+<p class="count">In Cart: <span id="Volleyball-count">0</span></p>
+<button onclick="addToCart('Volleyball',1300)">Add</button>
+</div>
+
+<div class="card">
+<img src="https://tse1.mm.bing.net/th/id/OIP.NK6hZTRik4jj9u7vehAH1gHaE8">
+<h4>Volleyball Net</h4><p>₹2500</p>
+<p class="count">In Cart: <span id="Volleyball Net-count">0</span></p>
+<button onclick="addToCart('Volleyball Net',2500)">Add</button>
+</div>
+</div>
+
+<!-- TABLE TENNIS -->
+<h2>🏓 Table Tennis Equipment</h2>
+<div class="products">
+<div class="card">
+<img src="https://tse4.mm.bing.net/th/id/OIP.R0232eh8yUGgrz_Z1LMQrQHaHa">
+<h4>TT Bat</h4><p>₹900</p>
+<p class="count">In Cart: <span id="TT Bat-count">0</span></p>
+<button onclick="addToCart('TT Bat',900)">Add</button>
+</div>
+
+<div class="card">
+<img src="https://tse2.mm.bing.net/th/id/OIP.cG4maXM1D8P-ApQ2gkNAlAAAAA">
+<h4>TT Balls</h4><p>₹350</p>
+<p class="count">In Cart: <span id="TT Balls-count">0</span></p>
+<button onclick="addToCart('TT Balls',350)">Add</button>
+</div>
+</div>
+
+
+<!-- CART -->
+<div id="cart">
+<h2>🛒 Your Cart</h2>
+<p>Total Items: <span id="itemCount">0</span></p>
+<div id="cartItems"></div>
+<div class="cart-total">
+<span>Total</span>
+<span>₹ <span id="total">0</span></span>
+</div>
+<button id="placeOrderBtn" style="display:none;" onclick="placeOrder()">Place Order</button>
+</div> 
+
+
+<footer>
+<p>© 2025 Sports Equipment Store | Portfolio Website</p>
+</footer>
+</div>
+
+<!-- FEEDBACK PAGE -->
+<div id="feedbackPage" class="page">
+<h2>📝 Customer Feedback</h2>
+<input id="fname" placeholder="Name"><br><br>
+<input id="no" placeholder="Mobile Number"><br><br>
+<input id="email" type="email" placeholder="Email"><br><br>
+<select id="rating">
+<option value="">Select Rating</option>
+<option>Excellent</option>
+<option>Good</option>
+<option>Average</option>
+<option>Poor</option>
+</select><br><br>
+<textarea id="message" rows="5" placeholder="Your feedback"></textarea><br><br>
+<button onclick="submitFeedback()">Submit</button>
+<button onclick="backToStore()">Back</button>
+<p id="feedbackError" style="color:red;"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

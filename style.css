@@ -1,0 +1,76 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+}
+header {
+    background: #0b5ed7;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+h2 {
+    margin-left: 20px;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 5px gray;
+}
+.card img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+.count {
+    color: #0b5ed7;
+    font-weight: bold;
+}
+button {
+    background: green;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#cart {
+    background: white;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 12px;
+}
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+}
+.cart-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+}
+.page {
+    display: none;
+    padding: 40px;
+    text-align: center;
+}
+input, textarea, select {
+    width: 260px;
+    padding: 8px;
+}
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
